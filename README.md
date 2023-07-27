@@ -23,7 +23,6 @@ Software
 
 ```text
 sensor_to_mqtt/
-└── build/
 └── components/
     └── mqtt_start/
     └── wifi_start/
