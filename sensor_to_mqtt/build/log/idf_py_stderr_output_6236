@@ -1,0 +1,75 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- idf_monitor on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400811d4: call_start_cpu1 at C:/Users/saipr/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x40084e0a: esp_crosscore_isr at C:/Users/saipr/esp/esp-idf/components/esp_system/crosscore_int.c:96
+[0m
+[0;33m0x40083379: _xt_lowint1 at C:/Users/saipr/esp/esp-idf/components/xtensa/xtensa_vectors.S:1226
+[0m
+[0;33m0x400d6d7f: get_distance_cm at C:/Users/saipr/Documents/PSY/Portfolio/sensor_to_mqtt/sensor_to_mqtt/components/mqtt_start/mqtt_start.c:105 (discriminator 1)
+[0m
+[0;33m0x400d6de7: mqtt_pub at C:/Users/saipr/Documents/PSY/Portfolio/sensor_to_mqtt/sensor_to_mqtt/components/mqtt_start/mqtt_start.c:89
+[0m
+[0;33m0x400d6e71: mqtt_event_handler at C:/Users/saipr/Documents/PSY/Portfolio/sensor_to_mqtt/sensor_to_mqtt/components/mqtt_start/mqtt_start.c:68
+[0m
+[0;33m0x40164421: handler_execute at C:/Users/saipr/esp/esp-idf/components/esp_event/esp_event.c:137
+[0m
+[0;33m0x40163ea6: esp_event_loop_run at C:/Users/saipr/esp/esp-idf/components/esp_event/esp_event.c:593 (discriminator 3)
+[0m
+[0;33m0x400d73d5: esp_mqtt_dispatch_event at C:/Users/saipr/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:985
+[0m
+[0;33m0x400d7617: esp_mqtt_dispatch_event_with_msgid at C:/Users/saipr/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:960
+[0m
+[0;33m0x400d829c: esp_mqtt_task at C:/Users/saipr/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:1579
+[0m
+[0;33m0x4008b521: vPortTaskWrapper at C:/Users/saipr/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40084e0a: esp_crosscore_isr at C:/Users/saipr/esp/esp-idf/components/esp_system/crosscore_int.c:96
+[0m
+[0;33m0x40083379: _xt_lowint1 at C:/Users/saipr/esp/esp-idf/components/xtensa/xtensa_vectors.S:1226
+[0m
+[0;33m0x400d6d7f: get_distance_cm at C:/Users/saipr/Documents/PSY/Portfolio/sensor_to_mqtt/sensor_to_mqtt/components/mqtt_start/mqtt_start.c:105 (discriminator 1)
+[0m
+[0;33m0x400d6de7: mqtt_pub at C:/Users/saipr/Documents/PSY/Portfolio/sensor_to_mqtt/sensor_to_mqtt/components/mqtt_start/mqtt_start.c:89
+[0m
+[0;33m0x400d6e71: mqtt_event_handler at C:/Users/saipr/Documents/PSY/Portfolio/sensor_to_mqtt/sensor_to_mqtt/components/mqtt_start/mqtt_start.c:68
+[0m
+[0;33m0x40164421: handler_execute at C:/Users/saipr/esp/esp-idf/components/esp_event/esp_event.c:137
+[0m
+[0;33m0x40163ea6: esp_event_loop_run at C:/Users/saipr/esp/esp-idf/components/esp_event/esp_event.c:593 (discriminator 3)
+[0m
+[0;33m0x400d73d5: esp_mqtt_dispatch_event at C:/Users/saipr/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:985
+[0m
+[0;33m0x400d7617: esp_mqtt_dispatch_event_with_msgid at C:/Users/saipr/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:960
+[0m
+[0;33m0x400d829c: esp_mqtt_task at C:/Users/saipr/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:1579
+[0m
+[0;33m0x4008b521: vPortTaskWrapper at C:/Users/saipr/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40084e0a: esp_crosscore_isr at C:/Users/saipr/esp/esp-idf/components/esp_system/crosscore_int.c:96
+[0m
+[0;33m0x40083379: _xt_lowint1 at C:/Users/saipr/esp/esp-idf/components/xtensa/xtensa_vectors.S:1226
+[0m
+[0;33m0x400d6d7f: get_distance_cm at C:/Users/saipr/Documents/PSY/Portfolio/sensor_to_mqtt/sensor_to_mqtt/components/mqtt_start/mqtt_start.c:105 (discriminator 1)
+[0m
+[0;33m0x400d6de7: mqtt_pub at C:/Users/saipr/Documents/PSY/Portfolio/sensor_to_mqtt/sensor_to_mqtt/components/mqtt_start/mqtt_start.c:89
+[0m
+[0;33m0x400d6e71: mqtt_event_handler at C:/Users/saipr/Documents/PSY/Portfolio/sensor_to_mqtt/sensor_to_mqtt/components/mqtt_start/mqtt_start.c:68
+[0m
+[0;33m0x40164421: handler_execute at C:/Users/saipr/esp/esp-idf/components/esp_event/esp_event.c:137
+[0m
+[0;33m0x40163ea6: esp_event_loop_run at C:/Users/saipr/esp/esp-idf/components/esp_event/esp_event.c:593 (discriminator 3)
+[0m
+[0;33m0x400d73d5: esp_mqtt_dispatch_event at C:/Users/saipr/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:985
+[0m
+[0;33m0x400d7617: esp_mqtt_dispatch_event_with_msgid at C:/Users/saipr/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:960
+[0m
+[0;33m0x400d829c: esp_mqtt_task at C:/Users/saipr/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:1579
+[0m
+[0;33m0x4008b521: vPortTaskWrapper at C:/Users/saipr/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0m
