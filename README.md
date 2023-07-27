@@ -40,7 +40,7 @@ sensor_to_mqtt/
 - Open sensor_to_mqtt in cmd
 - Run export.bat to set up ESP-IDF environment
 - Add details to files such as Wi-Fi SSID, password, mqtt broker username, password, uri etc.
-- Make sure to connect esp32 to your PC and dht11 sensor to pins as provided in code.
+- Make sure to connect esp32 to your PC and sensor to pins as provided in code.
 - Run   
   ```idf.py build flash monitor```
 
