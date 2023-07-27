@@ -1,20 +1,22 @@
 <p align="center">
   <a href="https://mqtt.org/">
-    <img src="https://mqtt.org/assets/img/mqtt-logo-transp.svg" alt="Logo" width=72 height=72>
+    <img src="https://hornerautomation.eu/wp-content/uploads/2021/11/mqtt-ver.png" alt="Logo" width=72 height=72>
   </a>
 
-  <h3 align="center">MQTT Sensor</h3>
+<h3 align="center">MQTT Sensor</h3>
 
+In this project, I utilized ESP32 and the HC-SR04 sensor to develop a streamlined system for remote data monitoring. By employing ESP-IDF over MQTT, the sensor readings are efficiently sent to a HiveMQ broker. This seamless integration allows for easy access and analysis of real-time data from remote locations, making it ideal for applications like environmental monitoring, industrial automation, and smart agriculture. 
 
 ## Requirements
 
-Hardware
+**Hardware**
 
 - ESP32 development kit
 - Micro USB cable
-- HC-SR04 ultrasonic sensor
+- HC-SR04 ultrasonic sensor module
+- Connecting wires
 
-Software
+**Software**
 
 - [ESP-IDF v5](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/)
 
@@ -43,7 +45,16 @@ sensor_to_mqtt/
 - Run   
   ```idf.py build flash monitor```
 
-## Thanks
+
+## Documentation
+- [esp-wifi](https://docs.espressif.com/projects/esp-idf/en/v5.1/esp32/api-reference/network/esp_wifi.html)
+- [esp-mqtt](https://docs.espressif.com/projects/esp-idf/en/v5.1/esp32/api-reference/protocols/mqtt.html)
+- [esp-tls](https://docs.espressif.com/projects/esp-idf/en/v5.1/esp32/api-reference/protocols/esp_tls.html)
+- [esp-gpio](https://docs.espressif.com/projects/esp-idf/en/v5.1/esp32/api-reference/peripherals/gpio.html)
+- [FreeRTOS](https://docs.espressif.com/projects/esp-idf/en/v5.1/esp32/api-reference/system/freertos_idf.html)
+- [HiveMQ](https://docs.hivemq.com/hivemq/4.17/user-guide/getting-started.html#get-started)
+  
+## Thank You!
 
 
 
